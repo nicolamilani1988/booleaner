@@ -1,0 +1,104 @@
+/* regole generali o condivise */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+section{
+  margin: 20px 10% 20px;
+}
+
+.grey-font{
+  color: #777777;
+}
+
+.text-small{
+  font-size: 70%;
+}
+
+.centered{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.highlight-yellow{
+  background-color: yellow;
+}
+
+
+/* regole logo+sfondo */
+
+header{
+  height: 100px;
+  background-image: url('../img/pattern.png');
+  background-color: #00adff60;
+  background-size: 25%;
+  padding: 0 10%;
+  /* background:25% #00adff60 url('../img/pattern.png') ; */
+}
+
+#logo{
+  width: 200px;
+  margin-top: 50px;
+}
+
+
+/* regole titolo */
+
+.lightblue-font{
+  color: #29d0ea;
+}
+
+h1{
+  font-size: 40px;
+}
+
+
+/* regole testo iniziale  */
+
+ul{
+  margin-top: 20px;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+
+/* regole tabella */
+.tabella{
+  border-collapse: collapse;
+}
+
+.main-row{
+  color:white;
+  background-color: #03a9f4;
+  text-align: left;
+}
+
+.cell-dimension-small{
+  width: 25%;
+}
+
+.lightblue-row{
+  background-color: #a5daff70;
+}
+
+
+/* regole footer */
+
+.picture{
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  padding: 10px;
+  color:white;
+  margin-top: 10px;
+}
+
+#monitor{
+  background-image: url('../img/monitor.jpg');
+}
+
+#graph{
+  background-image: url('../img/graph.jpg');
+}
